@@ -1,0 +1,55 @@
+{
+  "extends": ["tslint-react"],
+  "defaultSeverity": "warning",
+  "rules": {
+    "jsx-wrap-multiline": false,
+    "max-line-length": {
+      "options": [
+        1000
+      ]
+    },
+    "jsx-alignment": false,
+    "jsx-no-multiline-js": false,
+    "jsx-no-lambda": false,
+    "only-arrow-functions": false,
+    "no-empty-interface": false,
+    "member-access": false,
+    "max-classes-per-file": false,
+    "member-ordering": false,
+    "no-empty": false,
+    "trailing-comma": false,
+    "no-var-requires": false,
+    "no-unused-variable": true,
+    "object-literal-sort-keys": false,
+    "variable-name": false,
+    "object-literal-key-quotes": false,
+    "no-angle-bracket-type-assertion": false,
+    "arrow-parens": false,
+    "interface-over-type-literal": false,
+    "forin": false,
+    "quotemark": false,
+    "space-before-function-paren": false,
+    "typedef-whitespace": false,
+    "ordered-imports": [
+      false,
+      {
+        "import-sources-order": "any",
+        "named-imports-order": "case-insensitive"
+      }
+    ]
+  },
+  "typedef-whitespace": false,
+  "whitespace": false,
+  "indent": [
+    true,
+    "spaces"
+  ],
+  "alwaysShowRuleFailuresAsWarnings": true,
+  "autoFixOnSave": true,
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts"
+    ]
+  }
+}
